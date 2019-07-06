@@ -1,0 +1,153 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+td > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="radio"] {
+  margin: 0 auto;
+  display: block;
+}
+
+.giftItem input {
+  position: relative;
+  top: -10px;
+}
+
+.questions {
+  width: 100%;
+}
+
+.questions td {
+  width: 50%;
+}
+
+.questions td input[type="radio"] {
+  display: inline;
+  margin-left: 30px;
+}
+
+h2 {
+  color: red;
+}
+
+.forminfo {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+.forminfo > div {
+  margin-bottom: 50px;
+}
+
+.person-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birth {
+  display: flex;
+  flex-basis: space-between;
+  width: 700px;
+}
+
+.birth > span {
+  padding-right: 130px;
+}
+
+.birthday {
+  width: 500px;
+  font-weight: normal;
+}
+
+.post-number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tel-number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone {
+  display: flex;
+  justify-content: start;
+  width: 150px;
+}
+
+.forminfo input[type="text"] {
+  font: 15px sans-serif;
+  box-sizing: border-box;
+  width: 400px;
+  height: 50px;
+  padding: 0.3em;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.forminfo select {
+  appearance: none;
+  width: 150px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+  border-radius: 10px;
+}
+
+.attention p {
+  width: 1000px;
+  margin: 0 auto 50px;
+  text-align: left;
+}
+
+button {
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px rgba(33, 30, 85, 1);
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+button:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
